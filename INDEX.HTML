@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es-ar"> <!-- Define el idioma del documento como español (Argentina) -->
+    <head>
+        <meta charset="UTF-8"> <!-- Codificación de caracteres: UTF-8 es estándar para admitir caracteres especiales -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Hace que el diseño sea responsive (adaptable a distintos dispositivos) -->
+        <meta http-equiv="X-UA-Compatible" content="IE-edge"> 
+        <title>MI BIOGRAFIA</title> <!-- Título que se muestra en la pestaña del navegador -->
+        <link rel="stylesheet" href="css/style.css"> <!-- Enlace al archivo CSS externo -->
+    </head>
+    <body>
+        <!-- Encabezado principal -->
+        <header>
+            <h1> MI BIOGRAFIA </h1>
+            <div class="juan sada">  
+                <img src="fotos/messi-barça.gif" alt="foto de juan sada" width="45%"/> <!-- Imagen del logo con texto alternativo -->
+                
+            </div>  
+
+            <!-- Menú de navegación -->
+            <nav>
+                <ul>
+                    <!-- Cada <li> es un enlace a una plataforma externa -->
+                    <li><a href="#Inicio">Inicio</a></li>
+                    <li><a href="#Contacto">Contacto</a></li>
+                    <li><a href="#Desarrollador">Desarrollador</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Sección de inicio con mensaje de bienvenida -->  
+        <section id="inicio" class="inicio">
+           
+            <div class="inicio-contenido">
+                <fieldset>
+               <legend> <h2> Juan Ignacio Sada</h2></legend>
+           
+                <p>Juan Ignacio Sada, nacido el 28 de febrero de 2008 es un chico que estudia en la EPET N°20 en el curso 5°4°, escuela a la cual ingreso en 2024, anteriormente estaba en la EPET N°5, se cambio debido a que le interesa la especialidad de tecnico programador que le brinda su institucion al recibirse. La escuela primaria la hizo en el colegio Don Bosco donde hizo varios amigos que al dia de hoy mantiene. Nacio en Neuquen capital, donde vivio ( y sigue viviendo) gran parte de su vida, a dia de hoy vive con su mama y su hermano menor. Es un chico ocupado la mayor parte del tiempo, ya que la escuela tecnica le saca bastante tiempo del dia y el fuera de ella realiza otras actividades como ir al gimnasio o ir a futbol, el deporte que mas ama desde chico, es hincha de boca gracias a su papa, y a pesar de que a su padre no le gustaba para nada el futbol, el le agarro un cariño que nadie sabe de donde salio, pero esto lo llevo a realizar actividades desde muy chico. A los 7 años ingreso en una escuelita de futbol cerca de su antigua casa, pero luego ingreso en atletico neuquen y pasado un tiempo entro a rio grande.</p> <!-- Descripción breve -->
+            </fieldset>
+            </div>
+
+
+
+            <div class="Informacion-p"> 
+                <h2>Informacion personal</h2>
+                <ul>
+                    <li><strong>Nombre completo: </strong>Sada Juan Ignacio </li>
+                    <li><strong>Edad: </strong>17 (diecisiete) </li>
+                    <li><strong>Nacionalidad: </strong>Argentina </li>
+                </ul>        
+            </div>
+
+        </section>
+        <section class="mismas">
+            <h2>MIS MASCOTAS</h2>
+        </section>
+        <section id="mascotas" class="mascotas">
+            <img src="fotos/1a592590ea818b1622b7d9e901b9d44c.jpg" alt="foto de juan sada" width="200px"/>
+            <img src="fotos/mishi.jpg" alt="foto de juan sada" width="200px"/>
+            <img src="fotos/pomsky.jpg" alt="foto de juan sada" width="200px"/>
+          
+        
+        </section>
+           <section id="nomas" class="nomas">
+                  <h3> NANO</h3><h3> BLACKY</h3><h3> CLOE</h3>
+            </section>
+
+        <section id="contacto" class="contacto">
+            <h2>Contacto</h2>
+            
+            <!-- Formulario de contacto -->
+            <form action="#"> <!-- '#' significa que no enviará a ningún lado aún -->
+                <label for="Nombres">Nombre</label> <!-- Etiqueta para el campo de nombre -->
+                <input type="text" id="Nombre" name="nombre"/> <!-- Campo de texto -->
+
+                <label for="email">Email</label> <!-- Etiqueta para el email -->
+                <input type="email" id="email" name="email"/> <!-- Campo de email, valida formato automáticamente -->
+
+                <label for="mensaje">Mensaje</label> <!-- Etiqueta para el mensaje -->
+                <input type="mensaje" id="mensaje" name="mensaje"/> <!-- Campo para escribir el mensaje (debería ser <textarea>) -->
+
+                <button type="submit">Enviar</button> <!-- Botón para enviar el formulario -->
+            </form>
+        </section>
+
+        <!-- Pie de página -->
+        <footer class="footer">
+            <p>&copy; Esta pagina se creo el 22/04/2025</p> 
+        </footer>
+    </body>
+</html>
