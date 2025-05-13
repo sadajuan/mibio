@@ -1,0 +1,100 @@
+
+body{
+    font-family: "Merriweather", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e2d2d;
+    padding: 80px 20px;
+    color: #cfe2f3;
+}
+nav ul {
+    list-style: inside;
+    display: contents;
+    gap: 20px;
+}
+nav ul li a{
+    color: #cfe2f3; 
+    text-decoration: none;
+    font-size: 28px;
+}
+p{
+    text-align: justify;
+}
+#inicio{
+    background-color: #cfe2f3;
+    color: rgb(0, 0, 0);
+    padding: 200px;
+    width: 1185px;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+  
+}
+#mascotas{
+    margin: 0;
+    background-color: #cfe2f3; 
+    text-align: center;
+    padding: 20px ;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    gap: 10px;
+}
+#nomas{
+
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    background-color: #cfe2f3; 
+
+}
+.mismas{
+    background-color: #2e2d2d;
+    padding: 10px 20px;
+    color: #cfe2f3;
+    text-align: center;
+}
+
+.inicio-contenido p{
+    margin-left: 400px;
+   width: 800px;
+}
+.Informacion-p{
+    width: 80%;
+    margin: 150px;
+    padding: 15px;
+    background-color: #2e2d2d;
+    color: white;
+    border-radius: 20px;
+}
+.Informacion-p h2{
+    color: black;
+    text-align: center;
+    background-color: #cfe2f3;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #999;
+    padding: 20px;
+    border-radius: 60px;
+
+}
+#contacto{
+    text-align: center;
+    background-color: #cfe2f3;
+    padding: 10px;
+
+}
+.footer{
+    background-color: #2e2d2d;
+    padding: 5px 10px;
+    color: #cfe2f3;
+    text-align: center;
+}
